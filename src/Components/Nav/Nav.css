@@ -1,0 +1,46 @@
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Fira Sans Condensed', sans-serif;
+  width:100%;
+  padding: 1% 0;
+  background-color: rgb(39, 56, 56, 0.8);
+  color:rgb(199, 202, 213);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.navBarList{
+  display:flex;
+  justify-content: center;
+}
+
+.navBarList li {
+  margin-left: 3px;
+  margin-right:3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: rgb(199, 202, 213);
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
