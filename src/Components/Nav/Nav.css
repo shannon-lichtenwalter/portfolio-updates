@@ -2,7 +2,7 @@ nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family: 'Fira Sans Condensed', sans-serif;
   width:100%;
-  padding: 1% 0;
+  padding: 2% 0;
   background-color: rgb(39, 56, 56, 0.8);
   color:rgb(199, 202, 213);
   position: fixed;
@@ -11,6 +11,7 @@ nav {
   right: 0;
   z-index: 10;
   text-align: center;
+  font-size:1.2rem;
 }
 
 .navBarList{
@@ -19,8 +20,8 @@ nav {
 }
 
 .navBarList li {
-  margin-left: 3px;
-  margin-right:3px;
+  margin-left: 2px;
+  margin-right:2px;
 }
 
 a {
@@ -43,4 +44,14 @@ ul {
   list-style:none;
   padding: 0;
   margin: 0;
+}
+@media only screen and (min-width: 700px) {
+  nav {
+    padding: 1% 0;
+  }
+
+  .navBarList li {
+    margin-left: 4px;
+    margin-right:4px;
+  }
 }
