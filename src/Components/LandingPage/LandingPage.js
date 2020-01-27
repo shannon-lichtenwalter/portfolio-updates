@@ -9,7 +9,7 @@ function LandingPage(){
       </div>
       <div className='introStatements'>
         <h1>Shannon Lichtenwalter</h1>
-        <h2>Pediatric Nurse turned Fullstack Web Developer...</h2>
+        <h2>Pediatric Nurse Turned Fullstack Web Developer...</h2>
       </div>
     </header>
   )

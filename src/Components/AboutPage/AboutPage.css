@@ -1,0 +1,95 @@
+.imgHolder {
+  margin-top: 1%;
+  margin-bottom:1%;
+  width:80%;
+  
+  }
+
+div.self-photo {
+margin-top: 1%;
+margin-bottom:1%;
+height: 200px;
+width: 200px;
+background-image: url('../../images/self-photo.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+border-radius: 50%;
+}
+
+.self-photo {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.interests {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  width: 90%;
+}
+
+@media only screen and (min-width: 350px) {
+  .imgHolder {
+    width: 70%;
+  }
+}
+
+
+@media only screen and (min-width: 400px) {
+  .imgHolder {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .imgHolder {
+    width: 49%;
+  }
+}
+
+@media only screen and (min-width: 595px) {
+  .imgHolder {
+    width: 41%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .imgHolder {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 2%;
+  }
+}
+  
+  @media only screen and (min-width: 750px) {
+    .imgHolder {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .imgHolder {
+      width: 40%;
+    }
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .imgHolder {
+      width: 35%;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1000px) {
+    .imgHolder {
+      width: 30%;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .imgHolder {
+      width: 25%;
+    }
+  }

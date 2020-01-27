@@ -8,6 +8,8 @@
   display:flex;
   justify-content:center;
   align-items:center;
+  position: absolute;
+  top: 0
 }
 
 .initials > h1 {
@@ -20,13 +22,17 @@
 header {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items:center;
   padding: 6% 3%;
   text-align: center;
   color:rgb(199, 202, 213);
-  /* min-height: 680px; */
-  height: 90vh;
+  height: 80vh;
+  width: 100%;
+}
+
+.introStatements {
+  position: absolute;
+  top: 60%;
 }
 
   .introStatements > h1, .introStatements > h2 {
@@ -36,17 +42,6 @@ header {
 
   .introStatements > h2{
     font-size: 1.1rem;
-  }
-
-  @media only screen and (min-height: 100px) and (max-height: 500px) {
-  .initials {
-      height: 100px;
-      width: 100px;
-      margin-top: 20%;
-    }
-    .initials > h1 {
-      font-size: 4rem;
-    }
   }
   
   @media only screen and (min-width: 700px) {
