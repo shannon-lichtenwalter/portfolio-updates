@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "alias": "ShannonLichtenwalter-portfolio",
-  "name": "shannon-lichtenwalter-portfolio",
+  "alias": "ShannonLichtenwalter",
+  "name": "shannon-lichtenwalter",
   "routes": [
       { "handle": "filesystem" },
       { "src": "/.*", "dest": "/index.html" }
