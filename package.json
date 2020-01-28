@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "now --prod ./build"
+    "deploy": "now --prod",
+    "postdeploy": "now alias -A shannon-lichtenwalter-portfolio"
   },
   "eslintConfig": {
     "extends": "react-app"
