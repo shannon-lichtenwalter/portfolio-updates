@@ -1,25 +1,22 @@
 * {
   box-sizing: border-box;
+  overscroll-behavior: none;
 }
 
 
 html {
+  background-color:#1E2734;
   background-image: url('./images/trees.jpg');
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   font-size: 16px;
-  overscroll-behavior: none;
 }
 
 body {
   font-family: 'Fira Sans Condensed', sans-serif;
   line-height: 1.5;
-  position: fixed;
-  overflow: auto;
-  overscroll-behavior: none;
   width: 100%;
 }
 
@@ -41,7 +38,6 @@ section {
     max-height: 65vh;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    overscroll-behavior: none;
     padding: 30px;
     background-color: rgb(39, 56, 56, 0.7);
     color:rgb(199, 202, 213);
