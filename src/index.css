@@ -10,6 +10,7 @@ html {
   background-size: cover;
   height: 100%;
   font-size: 16px;
+  overscroll-behavior: none;
 }
 
 body {
@@ -35,7 +36,8 @@ h1, h2, h3, h4 {
 section {
     width: 90%;
     max-height: 65vh;
-    overflow: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     overscroll-behavior: none;
     padding: 30px;
     background-color: rgb(39, 56, 56, 0.7);
