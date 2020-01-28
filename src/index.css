@@ -6,6 +6,7 @@
 html {
   background-image: url('./images/trees.jpg');
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -17,7 +18,7 @@ body {
   font-family: 'Fira Sans Condensed', sans-serif;
   line-height: 1.5;
   position: fixed;
-  overflow: hidden;
+  overflow: auto;
   overscroll-behavior: none;
   width: 100%;
 }
