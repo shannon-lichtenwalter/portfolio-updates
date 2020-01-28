@@ -22,12 +22,11 @@ function AboutPage(){
           been
           drawn to working with technology and computers, so now I am taking my skills and strengths from the hospital
           bedside to my local text editor.</p>
-        <p>I am currently in the Engineering Immersion program at Thinkful. Once finished, I look forward to being on
-          the
-          front lines of an actively evolving field where I can problem solve, work creatively, and grow my skills. Web
+        <p>Web
           and software development is a field that inspires and motivates me to learn. I have become addicted to that
           feeling of magic when a program or app successfully runs. It makes the world feel bigger and full of
-          possibilities and reminds me that there are no limits to what can be created through code.</p>
+          possibilities and reminds me that there are no limits to what can be created through code. I am currently enrolled in the Engineering Immersion program at Thinkful. Once finished, I look forward to being on
+          the front lines of an actively evolving field where I can problem solve, work creatively, and continue to grow my skills. </p>
       </div>
       <ul className="interests">
         <li>When I am not at my computer you can catch me:</li>

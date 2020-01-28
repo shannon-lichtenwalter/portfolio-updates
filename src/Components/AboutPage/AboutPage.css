@@ -25,9 +25,7 @@ margin: 1% auto;
 
 .aboutMeSection > h2{
   text-align:center;
-  font-weight: bolder;
-  margin-bottom: 5px;
-  border-bottom: 5px solid #222532;
+  margin: 0;
 }
 
 .self-photo {

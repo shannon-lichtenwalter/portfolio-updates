@@ -4,6 +4,7 @@ import Nav from './Components/Nav/Nav';
 import LandingPage from './Components/LandingPage/LandingPage';
 import AboutPage from './Components/AboutPage/AboutPage';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 import NotFoundRoute from './Components/NotFoundRoute/NotFoundRoute';
 
 
@@ -27,6 +28,11 @@ class App extends React.Component {
           exact
           path={'/projects'}
           component={Projects}
+        />
+        <Route
+          exact
+          path={'/contact'}
+          component={Contact}
         />
         <Route
           component={NotFoundRoute}

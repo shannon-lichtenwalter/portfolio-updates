@@ -10,7 +10,7 @@ class Projects extends React.Component {
   handlePrev = () => {
     let num = this.state.num;
     if(num === 0){
-      num= 2;
+      num= 4;
     }else {
       num -= 1
     }
@@ -21,7 +21,7 @@ class Projects extends React.Component {
 
   handleNext = () => {
     let num= this.state.num;
-    if(num === 2){
+    if(num === 4){
       num = 0;
     } else{
       num += 1
@@ -33,7 +33,7 @@ class Projects extends React.Component {
 
   handleRenderIconGroup = () => {
     return projectList[this.state.num].techStack.map((icon, index) => {
-      return <li key={index}><i className={`devicon-${icon}-plain colored`}></i></li>
+      return <li key={index}><i className={`devicon-${icon}`}></i></li>
       })
     }
   
@@ -53,7 +53,6 @@ class Projects extends React.Component {
       <button className='prev top-button' onClick={()=> this.handlePrev()}>{`<<`}</button>
       <button className='next top-button' onClick={()=> this.handleNext()}>{`>>`}</button>
       <h2 className='sectionHeading'> Projects</h2>
-      {/* <div class="dashedLine"></div> */}
       <h3 aria-live='polite'>{project.name}</h3>
       <div className="project-image">
         <img className={this.renderClassName()}  src={project.image1} alt={project.image1alt}/>
@@ -77,9 +76,19 @@ class Projects extends React.Component {
           </li>
           <li>
             See the Repo:
-            <a href={project.clientRepo} target="_blank" rel="noopener noreferrer">
+            {project.serverRepo 
+            ? <div className='multipleRepos'>
+              <a href={project.clientRepo} target="_blank" rel="noopener noreferrer">
+              Client: <i className="fab fa-github"></i>
+              </a>
+              <a href={project.serverRepo} target="_blank" rel="noopener noreferrer">
+              Server: <i className="fab fa-github"></i>
+              </a> 
+            </div>
+            :<a href={project.clientRepo} target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
+            }
           </li>
         </ul>
       </div>
