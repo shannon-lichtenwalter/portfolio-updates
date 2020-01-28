@@ -3,13 +3,14 @@ import './AboutPage.css';
 
 function AboutPage(){
   return(
-    <section tabIndex='0' >
-      <h2> About Me</h2>
+    <section tabIndex='0'className='aboutMeSection'>
+      
       <div className="imgHolder self-photo">
         {/* <!-- <img className="self-photo hidden" src="./images/self-photo.png" alt="photo of Shannon Lichtenwalter"> --> */}
       </div>
-      <div className="dashedLine"></div>
-      <div className="aboutMeSection">
+      <h2> About Me</h2>
+      {/* <div className="dashedLine"></div> */}
+      <div className="aboutMe">
         <p>I may have put away my stethoscope but I still strive to fulfill my passion of enhancing people’s lives and
           well-being. It looks a little different these days, but now I am working towards that same goal through the
           creation and development of high-quality programs and applications.</p>

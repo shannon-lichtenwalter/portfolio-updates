@@ -6,15 +6,28 @@
   }
 
 div.self-photo {
-margin-top: 1%;
-margin-bottom:1%;
-height: 200px;
-width: 200px;
+height: 150px;
+width: 150px;
 background-image: url('../../images/self-photo.png');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: top;
 border-radius: 50%;
+margin: 1% auto;
+
+}
+
+.aboutMe > p{
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.aboutMeSection > h2{
+  text-align:center;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  border-bottom: 5px solid #222532;
 }
 
 .self-photo {
@@ -23,10 +36,13 @@ border-radius: 50%;
 }
 
 .interests {
-  padding: 0;
+  border-top: 5px solid #222532;
+  padding-top: 10px;
+  margin: 0 auto;
+  /* padding: 0; */
   text-align: center;
   list-style: none;
-  width: 90%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 350px) {
