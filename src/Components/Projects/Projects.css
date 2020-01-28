@@ -1,0 +1,168 @@
+.project{
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.linksToProject {
+  width: 90%;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.linksToProject > h3 {
+  margin: 0;
+}
+
+.iconGroup {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.3rem;
+  list-style: none;
+  padding: 0;
+}
+
+.iconGroup li {
+  display:inline-block;
+}
+
+
+i {
+  margin: 3px;
+}
+
+ul {
+  list-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+.projects > h2, .projects > h3 {
+  margin: 2px;
+}
+
+.projects > button:hover, .projects > .lower-buttons > button:hover {
+  background-color: white;
+}
+
+.lower-buttons {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects > button, .projects > .lower-buttons > button {
+  text-align: center;
+  background-color: rgb(255,255,255, 0.2);
+  padding: 5px;
+  width: 40px;
+  border: none;
+  color: rgb(199, 202, 213);
+  font-weight: bold;
+}
+
+.next {
+  align-self: flex-end;
+}
+
+.prev {
+  align-self: flex-start;
+}
+
+.top-button {
+  position: absolute;
+}
+
+
+.project-image {
+  margin-top: 1%;
+  margin-bottom:1%;
+  width:100%;
+  }
+
+  @media only screen and (min-width: 350px) {
+    .project-image {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 400px) {
+    .project-image {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (min-width: 500px) {
+    .project-image {
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .project-image {
+      width: 60%;
+    }
+  }
+  
+  @media only screen and (min-width: 700px) {
+  .twoImages {
+    width: 90%;
+    margin: 10px;
+  }
+  .project-image {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+}
+  
+@media only screen and (min-width: 900px) {
+  .projects > p {
+    width: 70%;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+    .project-image {
+      width: 50%;
+    }
+  }
+  
+  /* @media only screen and (min-width: 750px) {
+    .project-image {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .project-image {
+      width: 40%;
+    }
+  } */
+  
+  /* @media only screen and (min-width: 900px) {
+    .project-image {
+      width: 55%;
+    }
+  } */
+  
+  
+  /* @media only screen and (min-width: 1000px) {
+    .project-image {
+      width: 45%;
+    }
+  } */
+  
+  /* @media only screen and (min-width: 1200px) {
+    .project-image {
+      width: 25%;
+    }
+  } */

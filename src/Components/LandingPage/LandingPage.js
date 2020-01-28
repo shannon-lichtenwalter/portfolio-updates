@@ -8,8 +8,8 @@ function LandingPage(){
         <h1>SL</h1>
       </div>
       <div className='introStatements'>
-        <h1>Shannon Lichtenwalter</h1>
-        <h2>Pediatric Nurse Turned Fullstack Web Developer...</h2>
+        <h1 aria-live='polite'>Shannon Lichtenwalter</h1>
+        <h2 aria-live='polite'>Pediatric Nurse Turned Fullstack Web Developer...</h2>
       </div>
     </header>
   )

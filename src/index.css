@@ -10,8 +10,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 105%;
-  overflow:hidden;
+  height: 100%;
   font-size: 16px;
 
 }
@@ -33,6 +32,13 @@ main {
 
 h1, h2, h3, h4 {
   font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 1.3rem;
+}
+
+.sectionHeading {
+  font-family: 'Rochester', cursive;
+  font-weight: normal;
+  font-size: 2rem;
 }
 
 section {
