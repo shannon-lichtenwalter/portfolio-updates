@@ -71,15 +71,15 @@ const projectList = [
     image2: null,
     image2alt: null,
     description: `This application allows the user to save their favorite websites as
-    a bookmark to a server. For this project the Thinkful student server
-    was used. It allows the user to rate the site and add a brief description
+    a bookmark to a server. For this project a server and database were created and deployed via
+    Heroku in order to save the user's bookmarks. It allows the user to rate the site and add a brief description
     for future reference. The user can add and delete bookmarks. They can
     see a condensed or expanded view of their saved bookmark. The user can
     also filter the bookmarks to view by rating if they choose to.`,
-    techStack: ['javascript-plain colored', 'jquery-plain colored','html5-plain colored', 'css3-plain colored'],
-    liveLink:'https://thinkful-ei-heron.github.io/Shannon-bookmark-app/',
-    clientRepo:'https://github.com/thinkful-ei-heron/Shannon-bookmark-app',
-    serverRepo:null,
+    techStack: ['javascript-plain colored', 'jquery-plain colored', 'nodejs-plain colored', 'express-original', 'postgresql-plain colored', 'heroku-original colored', 'html5-plain colored',  'css3-plain colored'],
+    liveLink:'https://shannon-lichtenwalter.github.io/bookmark-app-connected-to-own-server/',
+    clientRepo:'https://github.com/shannon-lichtenwalter/bookmark-app-connected-to-own-server',
+    serverRepo: 'https://github.com/shannon-lichtenwalter/bookmark-server',
   },  
   {
     name: 'Star Wars Search App',
@@ -108,8 +108,8 @@ const projectList = [
     a final score at the end. The user has the option of restarting the quiz
     upon completion.`,
     techStack: ['javascript-plain colored', 'jquery-plain colored','html5-plain colored', 'css3-plain colored'],
-    liveLink:'https://thinkful-ei-heron.github.io/zee_shannon_quiz_app/',
-    clientRepo:'https://github.com/thinkful-ei-heron/zee_shannon_quiz_app',
+    liveLink:'https://shannon-lichtenwalter.github.io/space-quiz-app/',
+    clientRepo:'https://github.com/shannon-lichtenwalter/space-quiz-app',
     serverRepo:null,
   }
 ];
