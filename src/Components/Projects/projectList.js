@@ -1,9 +1,10 @@
 import QuizApp1 from '../.././images/QuizApp1.png';
 import QuizApp2 from '../.././images/QuizApp2.png';
-import WaitstaffCalc from '../.././images/WaitstaffCalc.png';
 import BookmarkApp from '../.././images/BookmarkApp.png';
 import StarWarsApp from '../.././images/starwars.png';
 import Logo from '../.././images/logo.png';
+import SpacedRep from '../.././images/spaced-rep.png';
+import Battleship from '../.././images/battleship.png';
 
 const projectList = [
   {
@@ -20,10 +21,48 @@ const projectList = [
     This application can be used by local bands, coffee shops, bars, artists, 
     event hosts and creators of all types to help making booking easier for 
     local artists.`,
-    techStack: ['react-plain colored', 'javascript-plain colored', 'nodejs-plain colored', 'express-original', 'postgresql-plain colored', 'html5-plain colored',  'css3-plain colored'],
-    liveLink:'https://pop-art.now.sh/my-account',
+    techStack: ['react-plain colored', 'javascript-plain colored', 'nodejs-plain colored', 'express-original', 'postgresql-plain colored', 'heroku-original colored', 'html5-plain colored',  'css3-plain colored'],
+    liveLink:'https://pop-art.now.sh/',
     clientRepo:'https://github.com/shannon-lichtenwalter/react-pop-art',
     serverRepo:'https://github.com/shannon-lichtenwalter/express-pop-art',
+  },
+  {
+    name: 'Battleship',
+    image1: Battleship,
+    image1alt: 'screenshot of battleship app',
+    image2: null,
+    image2alt: null,
+    description: `Battleship was built by a four-person team over the course of three weeks.
+    It utilizes websockets(socket.io) to bring the classic boardgame of Battleship to an online format; providing
+    the users with live updates on their opponent's moves and game progress. Users can chat with one another during 
+    their gameplay and can exit and resume games due to the utilization of database storage for game activity.`,
+    techStack: ['react-plain colored', 'javascript-plain colored', 'nodejs-plain colored', 'express-original', 'postgresql-plain colored', 'heroku-original colored', 'html5-plain colored',  'css3-plain colored'],
+    liveLink:'https://battleship-capstone.now.sh/',
+    clientRepo:'https://github.com/shannon-lichtenwalter/battleship-client',
+    serverRepo:'https://github.com/shannon-lichtenwalter/battleship-server',
+  },
+  {
+    name: 'Spaced Repetition: Learn French',
+    image1: SpacedRep,
+    image1alt: 'screenshot of spaced-repetition app',
+    image2: null,
+    image2alt: null,
+    description: `This application was built with a pair partner and 
+    is a platform for learning French 
+    through the technique of spaced repetition to 
+    help with memorization. With this application the 
+    user can create an account and login. They can see a 
+    dashboard to view their learning progress. The user 
+    is able to 'Start Practicing' where they will be 
+    given a French word that they must type in the 
+    translation for. The user will be notified if their 
+    answer is correct or incorrect. The user will see
+    their updated scores. The user can then move on to 
+    practicing more words`,
+    techStack: ['react-plain colored', 'javascript-plain colored', 'nodejs-plain colored', 'express-original', 'postgresql-plain colored', 'heroku-original colored', 'html5-plain colored',  'css3-plain colored'],
+    liveLink:'https://spaced-repetition-capstone-project.now.sh',
+    clientRepo:'https://github.com/shannon-lichtenwalter/spaced-repetition-client',
+    serverRepo:'https://github.com/shannon-lichtenwalter/spaced-repetition-server',
   },
   {
     name: 'Bookmark App',
@@ -53,7 +92,7 @@ const projectList = [
     renders the results of partial or full search terms in a list format,`,
     techStack: ['react-plain colored', 'javascript-plain colored', 'html5-plain colored', 'css3-plain colored'],
     liveLink:'https://shannon-star-wars-app.now.sh/',
-    clientRepo:'https://github.com/thinkful-ei-heron/Shannon-star-wars',
+    clientRepo:'https://github.com/shannon-lichtenwalter/star-wars-searcher',
     serverRepo:null,
   },
   {
@@ -71,23 +110,6 @@ const projectList = [
     techStack: ['javascript-plain colored', 'jquery-plain colored','html5-plain colored', 'css3-plain colored'],
     liveLink:'https://thinkful-ei-heron.github.io/zee_shannon_quiz_app/',
     clientRepo:'https://github.com/thinkful-ei-heron/zee_shannon_quiz_app',
-    serverRepo:null,
-  },
-  {
-    name: 'Waitstaff Calculator',
-    image1: WaitstaffCalc,
-    image1alt: 'screenshot of waitstaff calculator application',
-    image2: null,
-    image2alt: null,
-    description: `Simple app designed to calculate meal subtotals and tip.
-    The user is able to input meal price, tax rate, and tip rate. Upon
-    submitting this input the calculator will render the subtotal for
-    the meal, tip in dollar amount, and total cost of the meal. Additionally,
-    the app will keep track of the total earned tips for the day and the
-    average tip received per meal.`,
-    techStack: ['javascript-plain colored', 'jquery-plain colored','html5-plain colored', 'css3-plain colored'],
-    liveLink:'https://thinkful-ei-heron.github.io/waitstaff-calculator-Shannon/',
-    clientRepo:'https://github.com/thinkful-ei-heron/waitstaff-calculator-Shannon',
     serverRepo:null,
   }
 ];

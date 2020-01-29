@@ -10,7 +10,7 @@ class Projects extends React.Component {
   handlePrev = () => {
     let num = this.state.num;
     if(num === 0){
-      num= 4;
+      num= 5;
     }else {
       num -= 1
     }
@@ -21,7 +21,7 @@ class Projects extends React.Component {
 
   handleNext = () => {
     let num= this.state.num;
-    if(num === 4){
+    if(num === 5){
       num = 0;
     } else{
       num += 1
