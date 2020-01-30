@@ -50,10 +50,6 @@ section {
     background-color: rgb(39, 56, 56, 0.7);
     color:rgb(199, 202, 213);
 }
-/* 
-section:focus, a:focus {
-  outline:5px solid rgb(99, 129, 155);
-} */
 
 /* Scrollbar styles */
 ::-webkit-scrollbar {
