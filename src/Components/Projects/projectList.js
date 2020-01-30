@@ -1,4 +1,3 @@
-import QuizApp1 from '../.././images/QuizApp1.png';
 import QuizApp2 from '../.././images/QuizApp2.png';
 import BookmarkApp from '../.././images/BookmarkApp.png';
 import StarWarsApp from '../.././images/starwars.png';
@@ -97,10 +96,8 @@ const projectList = [
   },
   {
     name: 'Quiz App',
-    image1: QuizApp1,
-    image1alt: 'screenshot of quiz app question screen',
-    image2: QuizApp2,
-    image2alt: 'screenshot of incorrect question screen on quiz app',
+    image1: QuizApp2,
+    image1alt: 'screenshot of quiz app feedback screen',
     description: `Created an interactive space quiz application with a pair partner.
     The quiz allows the user to advance through questions while being
     alerted if they selected the correct or incorrect answer. The user

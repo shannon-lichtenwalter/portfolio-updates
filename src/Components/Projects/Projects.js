@@ -36,15 +36,6 @@ class Projects extends React.Component {
       return <li key={index}><i className={`devicon-${icon}`}></i></li>
       })
     }
-  
-  renderClassName = () => {
-    let project = projectList[this.state.num]
-    let className = 'project';
-    if(project.image2){
-      className += ' twoImages'
-    }
-    return className;
-  }
 
   render(){
     let project = projectList[this.state.num]
@@ -55,8 +46,7 @@ class Projects extends React.Component {
       <h2 className='sectionHeading'> Projects</h2>
       <h3 aria-live='polite'>{project.name}</h3>
       <div className="project-image">
-        <img className={this.renderClassName()}  src={project.image1} alt={project.image1alt}/>
-        {project.image2 && <img className={this.renderClassName()} src={project.image2} alt={project.image2alt}/>}
+        <img className='project'  src={project.image1} alt={project.image1alt}/>
       </div>
       <p aria-live='polite'>
         {project.description}
