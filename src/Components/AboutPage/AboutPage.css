@@ -20,7 +20,7 @@ margin: 1% auto;
 .aboutMe > p{
   font-size: 1.1rem;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .aboutMeSection > h2{
@@ -37,7 +37,6 @@ margin: 1% auto;
   border-top: 5px solid #222532;
   padding-top: 10px;
   margin: 0 auto;
-  /* padding: 0; */
   text-align: center;
   list-style: none;
   width: 100%;
@@ -92,6 +91,11 @@ margin: 1% auto;
   @media only screen and (min-width: 900px) {
     .imgHolder {
       width: 35%;
+    }
+
+    .aboutMe {
+      width: 85%;
+      margin: 0 auto;
     }
   }
   

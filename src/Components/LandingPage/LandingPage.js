@@ -1,10 +1,11 @@
 import React from 'react';
 import './LandingPage.css';
 
-function LandingPage(){
+class LandingPage extends React.Component {
+  render(){
   return (
     <header>
-      <div className="initials">
+      <div className="initials" onClick={()=> this.props.history.push('/about')}>
         <h1>SL</h1>
       </div>
       <div className='introStatements'>
@@ -13,6 +14,7 @@ function LandingPage(){
       </div>
     </header>
   )
+  }
 }
 
 export default LandingPage;

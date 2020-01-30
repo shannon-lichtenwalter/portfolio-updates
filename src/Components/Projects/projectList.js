@@ -33,7 +33,7 @@ const projectList = [
     image2: null,
     image2alt: null,
     description: `Battleship was built by a four-person team over the course of three weeks.
-    It utilizes websockets(socket.io) to bring the classic boardgame of Battleship to an online format; providing
+    It utilizes websockets(socket.io) to bring the classic board game of Battleship to an online format; providing
     the users with live updates on their opponent's moves and game progress. Users can chat with one another during 
     their gameplay and can exit and resume games due to the utilization of database storage for game activity.`,
     techStack: ['react-plain colored', 'javascript-plain colored', 'nodejs-plain colored', 'express-original', 'postgresql-plain colored', 'heroku-original colored', 'html5-plain colored',  'css3-plain colored'],
@@ -58,7 +58,7 @@ const projectList = [
     translation for. The user will be notified if their 
     answer is correct or incorrect. The user will see
     their updated scores. The user can then move on to 
-    practicing more words`,
+    practicing more words.`,
     techStack: ['react-plain colored', 'javascript-plain colored', 'nodejs-plain colored', 'express-original', 'postgresql-plain colored', 'heroku-original colored', 'html5-plain colored',  'css3-plain colored'],
     liveLink:'https://spaced-repetition-capstone-project.now.sh',
     clientRepo:'https://github.com/shannon-lichtenwalter/spaced-repetition-client',

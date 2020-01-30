@@ -8,7 +8,7 @@ function Contact() {
       <ul className= "contactInfo">
         <li><i className="fas fa-location-arrow"></i> Colorado Springs, CO</li>
         <li><i className="fas fa-phone-square-alt"></i> <a href="tel:303-842-9166">303.842.9166</a></li>
-        <li><i className="far fa-envelope"></i> <a href="mailto:shannon.lichtenwalter@gmail.com?subject=Hi%20There!"target="_blank" rel="noopener noreferrer"> shannon.lichtenwalter@gmail.com</a></li>
+        <li className='email'><i className="far fa-envelope"></i> <a href="mailto:shannon.lichtenwalter@gmail.com?subject=Hi%20There!"target="_blank" rel="noopener noreferrer"> shannon.lichtenwalter@gmail.com</a></li>
         <li className= "contactIconLinks"> 
           <a href= "https://github.com/shannon-lichtenwalter"target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
