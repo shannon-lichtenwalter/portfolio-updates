@@ -3,7 +3,7 @@ nav {
   font-family: 'Fira Sans Condensed', sans-serif;
   width:100%;
   padding: 2% 0;
-  background-color: rgb(39, 56, 56, 0.8);
+  background-color: #4B595B;
   color:rgb(199, 202, 213);
   position: fixed;
   top: 0;
@@ -11,6 +11,7 @@ nav {
   right: 0;
   text-align: center;
   font-size:1.2rem;
+  z-index:200;
 }
 
 .navBarList{
@@ -18,7 +19,14 @@ nav {
   justify-content: center;
 }
 
-.navBarList li {
+/* .navBarList li {
+  margin-left: 2px;
+  margin-right:2px;
+} */
+
+.needDivider::after {
+  content: '|';
+  color: grey;
   margin-left: 2px;
   margin-right:2px;
 }
@@ -46,12 +54,17 @@ ul {
 }
 
 @media only screen and (min-width: 700px) {
+  .needDivider::after{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
   nav {
     padding: 1% 0;
   }
 
-  .navBarList li {
+  /* .navBarList li {
     margin-left: 4px;
     margin-right:4px;
-  }
+  } */
 }

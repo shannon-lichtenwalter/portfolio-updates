@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import projectList from './projectList';
 import './Projects.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 class Projects extends React.Component {
   state = {
@@ -38,9 +42,9 @@ class Projects extends React.Component {
     }
 
   handleRenderProjects = () => {
-    return projectList.map(project => {
+    return projectList.map((project, index) => {
       return (
-        <>
+        <Fragment key={index}>
       <h3 aria-live='polite'>{project.name}</h3>
       <div className="project-image">
         <img className='project'  src={project.image1} alt={project.image1alt}/>
@@ -81,14 +85,14 @@ class Projects extends React.Component {
       </div>
 
       <div className='dividerLine'></div>
-      </>
+      </Fragment>
       )
     })
   }
 
   render(){
     return(
-      <section className='projects' id='projects'>
+      <section className='projects' data-aos='fade-in' data-aos-easing='ease-in-sine' data-aos-duration="600" id='projects'>
 
       <h2 className='sectionHeading'> Projects</h2>
     {this.handleRenderProjects()}

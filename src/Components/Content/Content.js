@@ -4,16 +4,18 @@ import AboutPage from '../AboutPage/AboutPage';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 
-function Content(){
+class Content extends React.Component{
+  render(){
   return(
     <>
-    <LandingPage />
+    <LandingPage history={this.props.history} />
     <AboutPage />
     <Projects />
     <Contact />
     </>
 
   )
+  }
 }
 
 export default Content;

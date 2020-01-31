@@ -13,7 +13,6 @@ class App extends React.Component {
       <AboutPage />
       <Projects />
       <Contact /> */}
-
       <Switch>
         <Route
           exact

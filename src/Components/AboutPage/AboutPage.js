@@ -1,10 +1,13 @@
 import React from 'react';
 import './AboutPage.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
-function AboutPage(){
-  return(
-    <section className='aboutMeSection' id='about'>
-      
+function AboutPage() {
+  return (
+    <section className='aboutMeSection' data-aos='fade-in' data-aos-easing='ease-in-sine' data-aos-duration="600" id='about'>
       <div className="imgHolder self-photo">
         {/* <!-- <img className="self-photo hidden" src="./images/self-photo.png" alt="photo of Shannon Lichtenwalter"> --> */}
       </div>

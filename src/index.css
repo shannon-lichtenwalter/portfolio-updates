@@ -33,6 +33,7 @@ main {
   left:0px; */
 }
 
+
 h1, h2, h3, h4 {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 1.3rem;
@@ -46,34 +47,26 @@ h1, h2, h3, h4 {
 
 section {
     width: 90%;
-    /* max-height: 70vh; */
-    /* overflow: auto;
-    -webkit-overflow-scrolling: touch; */
     padding: 30px;
     background-color: rgb(39, 56, 56, 0.7);
     color:rgb(199, 202, 213);
     margin: 10% auto;
 }
 
-/* Scrollbar styles */
-/* ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  #welcome, #nav {
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
   }
   
-  ::-webkit-scrollbar-track {
-  border: 1px solid rgb(199,202,213, 0.5);
-  border-radius: 10px;
+  @-webkit-keyframes fadeinout {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
   }
   
-  ::-webkit-scrollbar-thumb {
-  background: rgb(199,202,213, 0.5);
-  border-radius: 10px;
+  @keyframes fadeinout {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
   }
-  
-  ::-webkit-scrollbar-thumb:hover {
-  background: rgb(199,202,213, 0.5);
-  } */
 
 @media only screen and (min-width: 500px) {
   section{
