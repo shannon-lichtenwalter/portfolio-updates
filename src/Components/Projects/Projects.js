@@ -37,13 +37,10 @@ class Projects extends React.Component {
       })
     }
 
-  render(){
-    let project = projectList[this.state.num]
-    return(
-    <section className='projects' tabIndex='0'>
-      <button className='prev top-button' onClick={()=> this.handlePrev()}>{`<<`}</button>
-      <button className='next top-button' onClick={()=> this.handleNext()}>{`>>`}</button>
-      <h2 className='sectionHeading'> Projects</h2>
+  handleRenderProjects = () => {
+    return projectList.map(project => {
+      return (
+        <>
       <h3 aria-live='polite'>{project.name}</h3>
       <div className="project-image">
         <img className='project'  src={project.image1} alt={project.image1alt}/>
@@ -82,10 +79,19 @@ class Projects extends React.Component {
           </li>
         </ul>
       </div>
-      <div className='lower-buttons'>
-        <button className='prev bottom-button' onClick={()=> this.handlePrev()}>{`<<`}</button>
-        <button className='next bottom-button' onClick={()=> this.handleNext()}>{`>>`}</button>
-      </div>
+
+      <div className='dividerLine'></div>
+      </>
+      )
+    })
+  }
+
+  render(){
+    return(
+      <section className='projects' id='projects'>
+
+      <h2 className='sectionHeading'> Projects</h2>
+    {this.handleRenderProjects()}
     </section>
     )
   }

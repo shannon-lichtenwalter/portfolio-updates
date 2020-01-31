@@ -1,30 +1,31 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Nav from './Components/Nav/Nav';
-import LandingPage from './Components/LandingPage/LandingPage';
-import AboutPage from './Components/AboutPage/AboutPage';
-import Projects from './Components/Projects/Projects';
-import Contact from './Components/Contact/Contact';
+import Content from './Components/Content/Content';
 import NotFoundRoute from './Components/NotFoundRoute/NotFoundRoute';
-
 
 class App extends React.Component {
   render () {
     return (
     <main>
       <Nav />
+      {/* <LandingPage />
+      <AboutPage />
+      <Projects />
+      <Contact /> */}
+
       <Switch>
         <Route
           exact
           path={'/'}
-          component={LandingPage}
+          component={Content}
         />
-        <Route
+        {/* <Route
           exact
           path={'/about'}
           component={AboutPage}
-        />
-        <Route
+        /> */}
+        {/* <Route
           exact
           path={'/projects'}
           component={Projects}
@@ -32,8 +33,8 @@ class App extends React.Component {
         <Route
           exact
           path={'/contact'}
-          component={Contact}
-        />
+          component={Contact} */}
+        {/* /> */}
         <Route
           component={NotFoundRoute}
         />

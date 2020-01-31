@@ -3,7 +3,7 @@ import './AboutPage.css';
 
 function AboutPage(){
   return(
-    <section tabIndex='0'className='aboutMeSection'>
+    <section className='aboutMeSection' id='about'>
       
       <div className="imgHolder self-photo">
         {/* <!-- <img className="self-photo hidden" src="./images/self-photo.png" alt="photo of Shannon Lichtenwalter"> --> */}

@@ -4,7 +4,7 @@ import './LandingPage.css';
 class LandingPage extends React.Component {
   render(){
   return (
-    <header>
+    <header id='welcome'>
       <div className="initials" onClick={()=> this.props.history.push('/about')}>
         <h1>SL</h1>
       </div>

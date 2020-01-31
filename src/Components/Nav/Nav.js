@@ -9,10 +9,10 @@ function Nav() {
   return (
     <nav>
       <ul className="navBarList">
-        <li> <Link to='/'>Welcome |</Link></li>
-        <li><Link to='/about'>About Me | </Link></li>
-        <li><Link to='/projects'>Projects | </Link></li>
-        <li><Link to='/contact'>Contact </Link></li>
+        <li> <a data-scroll href='/#welcome'>Welcome |</a></li>
+        <li><a data-scroll href='/#about'>About Me | </a></li>
+        <li><a data-scroll href='/#projects'>Projects | </a></li>
+        <li><a data-scroll href='/#contact'>Contact </a></li>
       </ul>
     </nav>
   )

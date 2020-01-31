@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
   return(
-    <section className='contact-info'>
+    <section className='contact-info' id='contact'>
       <h2 className='sectionHeading'>Contact Information</h2>
       <ul className= "contactInfo">
         <li><i className="fas fa-location-arrow"></i> Colorado Springs, CO</li>
