@@ -11,16 +11,15 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  z-index: -1;
   height: 100vh;
   font-size: 16px;
 }
 
-/* @media (hover: none) {
+@media (hover: none) {
   .homeHero {
       background-attachment: initial;
   }
-} */
+}
 
 body {
   font-family: 'Fira Sans Condensed', sans-serif;
