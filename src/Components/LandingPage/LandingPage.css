@@ -54,11 +54,6 @@ header {
 .initials:hover {
   background: rgba(0, 2, 18, 0.7);
 }
-
-.initialsLink:hover {
-  box-shadow: none !important;
-  background-color:transparent;
-}
   
   @media only screen and (min-width: 700px) {
     .initials {
