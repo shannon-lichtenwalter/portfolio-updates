@@ -1,13 +1,18 @@
 import React from 'react';
 import './Contact.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
+import 'aos/dist/aos.css';
 
 function Contact() {
+  AOS.init();
   return(
-    <section className='contact-info' data-aos='fade-in' data-aos-easing='ease-in-sine' data-aos-duration="600" id='contact'>
+    <section 
+      className='contact-info' 
+      data-aos='fade-in' 
+      data-aos-easing='ease-in-sine' 
+      data-aos-duration="600" 
+      id='contact'
+    >
       <h2 className='sectionHeading'>Contact Information</h2>
       <ul className= "contactInfo">
         <li><i className="fas fa-location-arrow"></i> Colorado Springs, CO</li>

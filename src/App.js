@@ -9,31 +9,12 @@ class App extends React.Component {
     return (
     <main>
       <Nav />
-      {/* <LandingPage />
-      <AboutPage />
-      <Projects />
-      <Contact /> */}
       <Switch>
         <Route
           exact
           path={'/'}
           component={Content}
         />
-        {/* <Route
-          exact
-          path={'/about'}
-          component={AboutPage}
-        /> */}
-        {/* <Route
-          exact
-          path={'/projects'}
-          component={Projects}
-        />
-        <Route
-          exact
-          path={'/contact'}
-          component={Contact} */}
-        {/* /> */}
         <Route
           component={NotFoundRoute}
         />

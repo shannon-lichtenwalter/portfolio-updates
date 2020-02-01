@@ -38,7 +38,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* position: fixed; */
 }
 
 .projects > h2 {
@@ -50,7 +49,6 @@ top: -13px;
 }
 
 .projects > h3 {
-  /* margin-top: 100px; */
   margin: 2px;
   text-align:center;
   
@@ -59,40 +57,6 @@ top: -13px;
 .multipleRepos{
   font-size: 1rem;
 }
-
-.projects > button:hover, .projects > .lower-buttons > button:hover {
-  background-color: white;
-}
-
-.lower-buttons {
-  margin-top: 10px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.projects > button, .projects > .lower-buttons > button {
-  text-align: center;
-  background-color: rgb(255,255,255, 0.2);
-  padding: 5px;
-  width: 40px;
-  border: none;
-  color: rgb(199, 202, 213);
-  font-weight: bold;
-}
-
-.next {
-  align-self: flex-end;
-}
-
-.prev {
-  align-self: flex-start;
-}
-
-.top-button {
-  position: absolute;
-}
-
 
 .project-image {
   margin-top: 1%;

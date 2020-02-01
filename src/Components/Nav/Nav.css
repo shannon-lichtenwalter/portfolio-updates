@@ -19,11 +19,6 @@ nav {
   justify-content: center;
 }
 
-/* .navBarList li {
-  margin-left: 2px;
-  margin-right:2px;
-} */
-
 .needDivider::after {
   content: '|';
   color: grey;
@@ -40,7 +35,10 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: white;
+  color:white;
+  font-weight: bolder;
+  box-shadow: 0 10px 30px 0 #889598;
+  border-radius: 3px;
 }
 
 a:active {
@@ -63,8 +61,4 @@ ul {
     padding: 1% 0;
   }
 
-  /* .navBarList li {
-    margin-left: 4px;
-    margin-right:4px;
-  } */
 }

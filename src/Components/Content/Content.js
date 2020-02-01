@@ -6,15 +6,15 @@ import Contact from '../Contact/Contact';
 
 class Content extends React.Component{
   render(){
-  return(
-    <>
-    <LandingPage history={this.props.history} />
-    <AboutPage />
-    <Projects />
-    <Contact />
-    </>
-
-  )
+  
+    return(
+      <>
+      <LandingPage history={this.props.history} />
+      <AboutPage />
+      <Projects />
+      <Contact />
+      </>
+    )
   }
 }
 
