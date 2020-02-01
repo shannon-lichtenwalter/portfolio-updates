@@ -5,16 +5,11 @@
 
 
 html {
-  /* background-color:#22242D;
-  background-image: url('./images/trees.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh; */
   font-size: 16px;
 }
 
+/* this styling is used so that the fixed background-image works on 
+mobile devices as well */
 html:before {
     background-color:#22242D;
     content: "";

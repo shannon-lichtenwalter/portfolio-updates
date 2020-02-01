@@ -3,9 +3,9 @@
 ### Created by: Shannon Lichtenwalter
 
 #### Links:
-Live site: https://shannon-lichtenwalter-portfolio.now.sh/
+Live site: https://shannonlichtenwalter.now.sh
 
-Repo: https://github.com/shannon-lichtenwalter/portfolio
+Repo: https://github.com/shannon-lichtenwalter/portfolio-updates
 
 #### Tech Stack
 Created Using: Javascript, React, HTML, & CSS
