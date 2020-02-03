@@ -53,6 +53,7 @@ header {
 }
 .initials:hover {
   background: rgba(0, 2, 18, 0.7);
+  cursor:pointer;
 }
   
   @media only screen and (min-width: 700px) {

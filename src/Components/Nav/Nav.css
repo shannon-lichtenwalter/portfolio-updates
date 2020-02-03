@@ -37,6 +37,7 @@ a:link, a:visited {
 a:hover {
   color:#232A35;
   font-weight: bolder;
+  cursor:pointer;
 }
 
 a:active {

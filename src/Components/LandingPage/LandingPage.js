@@ -13,7 +13,7 @@ class LandingPage extends React.Component {
         </a>
         <div className='introStatements'>
           <h1 aria-live='polite'>Shannon Lichtenwalter</h1>
-          <h2 aria-live='polite'>Pediatric Nurse Turned Fullstack Web Developer...</h2>
+          <h2 aria-live='polite'>Pediatric Nurse turned Full-Stack Web Developer</h2>
         </div>
       </header>
     )
