@@ -25,9 +25,6 @@ function Contact() {
           <a href= "https://www.linkedin.com/in/shannon-lichtenwalter/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href= 'https://docs.google.com/document/d/e/2PACX-1vSHmlXdVqN76yMvANstYmvpfvCkUpQdVfMz_-5d3pSRiVLFLFKVAcJN3unvglI8vHT2A-oQTnPS6n0O/pub' target="_blank" rel="noopener noreferrer">
-            <i className="far fa-file"></i>
-          </a>
         </li>
       </ul>
     </section>
